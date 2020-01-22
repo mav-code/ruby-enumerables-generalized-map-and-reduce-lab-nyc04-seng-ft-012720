@@ -10,8 +10,9 @@ end
 
 def reduce(inputarray, startingvalue=nil)
  if startingvalue
-   i = 0
+  
   output = startingvalue
+  i = 0
   else
   output = inputarray[0]
   i = 1
