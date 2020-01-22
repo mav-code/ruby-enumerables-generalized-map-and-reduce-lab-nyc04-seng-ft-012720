@@ -14,6 +14,7 @@ def reduce(inputarray, startingvalue=nil)
   output = startingvalue
   else
   output = inputarray[0]
+  i += 1
  end
  while i < inputarray.length do
    output = yield(output, inputarray)
